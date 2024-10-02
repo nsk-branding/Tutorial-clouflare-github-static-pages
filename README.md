@@ -32,3 +32,11 @@
 ![Texto alternativo](./assets/img6.png)
 
 ![Texto alternativo](./assets/img1.png)
+
+
+
+---------------------------
+
+#Cloudflare web:
+
+https://tutorial-clouflare-github-static-pages.pages.dev/
