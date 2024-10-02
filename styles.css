@@ -1,4 +1,5 @@
 body {
+    background-color: rgb(41, 40, 40);
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 20px;
@@ -10,21 +11,38 @@ body {
     align-items: center;
 }
 
-.gallery-item {
+.gallery-item-container {
     width: 100%;
     max-width: 400px;
     /* Ajusta el tamaño máximo según tus necesidades */
-    margin: 10px 0;
-    /* Padding pequeño entre imágenes */
+    margin: 20px 0;
+    /* Aumentar el margen entre imágenes */
+}
+
+.image-caption {
+    color: white;
+    /* Color del texto */
+    text-align: left;
+    /* Alinear texto a la izquierda */
+    margin-bottom: 5px;
+    /* Espacio entre el texto y la imagen */
+}
+
+.gallery-item {
+    width: 100%;
     cursor: pointer;
     /* Cambia el cursor al pasar sobre la imagen */
-    transition: transform 0.2s;
+    transition: transform 0.2s, box-shadow 0.2s;
     /* Transición suave */
+    border-radius: 10px;
+    /* Borde redondeado */
 }
 
 .gallery-item:hover {
     transform: scale(1.05);
     /* Efecto hover para ampliar ligeramente */
+    box-shadow: 0 0 20px rgba(186, 85, 211, 0.8);
+    /* Efecto neón morado */
 }
 
 .modal {
@@ -54,4 +72,31 @@ body {
     color: white;
     font-size: 40px;
     font-weight: bold;
+}
+
+.button-container {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.github-button {
+    background-color: #1540db;
+    /* Color verde similar a GitHub */
+    color: white;
+    /* Color del texto */
+    padding: 10px 20px;
+    /* Espaciado interno */
+    text-decoration: none;
+    /* Sin subrayado */
+    border-radius: 5px;
+    /* Bordes redondeados */
+    font-size: 16px;
+    /* Tamaño de fuente */
+    transition: background-color 0.3s;
+    /* Transición suave al cambiar color */
+}
+
+.github-button:hover {
+    background-color: #76227a;
+    /* Color más oscuro al pasar el mouse */
 }
