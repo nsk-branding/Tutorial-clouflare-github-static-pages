@@ -4,8 +4,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pagina-estatica-Cloudflare-tutorial</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1>Hi!</h1>
+    <div class="gallery">
+        <img src="./assets/img1.png" alt="Descripción de la imagen 1" class="gallery-item">
+        <img src="./assets/img2.png" alt="Descripción de la imagen 2" class="gallery-item">
+        <img src="./assets/img3.png" alt="Descripción de la imagen 3" class="gallery-item">
+        <img src="./assets/img4.png" alt="Descripción de la imagen 4" class="gallery-item">
+        <img src="./assets/img5.png" alt="Descripción de la imagen 4" class="gallery-item">
+        <img src="./assets/img6.png" alt="Descripción de la imagen 4" class="gallery-item">
+        <img src="./assets/img7.png" alt="Descripción de la imagen 4" class="gallery-item">
+    </div>
+
+    <div id="modal" class="modal">
+        <span class="close">&times;</span>
+        <img class="modal-content" id="modal-img">
+        <div id="caption"></div>
+    </div>
+
+    <script src="script.js"></script>
 </body>
+
 </html>
