@@ -13,10 +13,11 @@
 
  3. https://www.youtube.com/watch?v=hhsokQb1sxc&t
 
------------------
-despues de la implementacion, queda el nombre del repositorio mas la extension .dev
+----------------------
 
-Aqui unas imagenes con el paso a paso
+(After implementation, the name of the repository remains with the .dev extension)
+
+💻 Here are some images with the step-by-step process.
 
 ![Texto alternativo](./assets/img1.png)
 
@@ -30,4 +31,4 @@ Aqui unas imagenes con el paso a paso
 
 ![Texto alternativo](./assets/img6.png)
 
-![Texto alternativo](./assets/img7.png)
+![Texto alternativo](./assets/img1.png)
